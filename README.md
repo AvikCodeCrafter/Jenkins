@@ -15,22 +15,7 @@ Whether you're **new to Jenkins**, preparing for **DevOps interviews**, or setti
 - ☁️ AWS‑aligned  
 - 🧠 Production-minded  
 
----
 
-## 🖼️ Jenkins Architecture Diagrams
-
-### Basic Jenkins Architecture
-![Basic Jenkins Architecture](images/jenkins_basic_architecture.png)
-
----
-
-### Multi-Agent Jenkins Pipeline
-![Multi-Agent Jenkins Pipeline](images/jenkins_multi_agent_pipeline.png)
-
----
-
-### Jenkins with AWS Ephemeral EC2 Agents
-![AWS Ephemeral Jenkins Agents](images/jenkins_aws_ephemeral_agents.png)
 
 ---
 
@@ -505,7 +490,20 @@ When combined with:
 ---
 
 
+## 🖼️ Jenkins Architecture Diagrams
 
+### Basic Jenkins Architecture
+![Basic Jenkins Architecture](images/jenkins_basic_architecture.png)
+
+---
+
+### Multi-Agent Jenkins Pipeline
+![Multi-Agent Jenkins Pipeline](images/jenkins_multi_agent_pipeline.png)
+
+---
+
+### Jenkins with AWS Ephemeral EC2 Agents
+![AWS Ephemeral Jenkins Agents](images/jenkins_aws_ephemeral_agents.png)
 
 ---
 
