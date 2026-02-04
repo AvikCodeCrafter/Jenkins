@@ -977,7 +977,22 @@ pipeline {
 ✔ Keep Jenkins controller lightweight  
 
 ---
+## 🖼️ CI/CD Reference Architectures
 
+### Full CI/CD Reference Architecture (Jenkins on AWS)
+![Full CI/CD Reference Architecture](images/jenkins_full_cicd_reference.png)
+
+---
+
+### Jenkins with Kubernetes / EKS Agents
+![Jenkins with EKS Agents](images/jenkins_kubernetes_eks_agents.png)
+
+---
+
+### Secure Jenkins Architecture (ALB + HTTPS)
+![Secure Jenkins Architecture](images/jenkins_secure_alb_https.png)
+
+---
 
 ## 🏷️ License
 
