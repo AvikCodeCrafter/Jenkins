@@ -13,9 +13,13 @@ Whether you're **new to Jenkins**, preparing for **DevOps interviews**, or setti
 - ✅ Easy to follow  
 - 🔐 Security-aware  
 - ☁️ AWS‑aligned  
-- 🧠 Production-minded  
+- 🧠 Production-minded
 
+---
 
+## 🔁 CI/CD Pipeline
+
+![CI/CD Pipeline Banner](images/cicd_pipeline_banner.png)
 
 ---
 
