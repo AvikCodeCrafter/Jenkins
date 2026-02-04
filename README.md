@@ -19,7 +19,7 @@ Whether you're **new to Jenkins**, preparing for **DevOps interviews**, or setti
 
 ## 🔁 CI/CD Pipeline
 
-![CI/CD Pipeline Banner](images/cicd_pipeline_banner.png)
+![CI/CD Pipeline Banner](images/CICD-pipeline.png)
 
 ---
 
