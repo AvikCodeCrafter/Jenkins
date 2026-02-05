@@ -163,3 +163,26 @@ github-pat
 
 Branch Specifier:
 */main
+
+---
+
+Save the job configuration.
+
+---
+
+### Step 4: Ensure Git Is Installed on Jenkins Agents
+
+On **every Jenkins agent**, verify that Git is installed:
+
+```bash
+git --version
+
+If Git is not installed, install it using the appropriate package manager:
+
+sudo dnf install git -y   # Amazon Linux / RHEL
+sudo apt install git -y   # Ubuntu / Debian
+
+
+---
+
+
