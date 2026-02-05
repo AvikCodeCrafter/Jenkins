@@ -2,6 +2,10 @@
 
 This project uncovered several **practical, real-world lessons** that are rarely highlighted in tutorials but commonly encountered in production Jenkins environments.
 
+## 🏗️  Jenkins + GitHub
+
+![Jenkins+GitHub](images/CICD-pipeline.png)
+
 ---
 
 ### 🔐 1. SSH Is Not Always the Best Choice for Jenkins + GitHub
