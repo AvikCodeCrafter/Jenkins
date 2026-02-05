@@ -181,8 +181,52 @@ If Git is not installed, install it using the appropriate package manager:
 
 sudo dnf install git -y   # Amazon Linux / RHEL
 sudo apt install git -y   # Ubuntu / Debian
+```
+---
+🏆 Final Verdict
 
+Jenkins does not install system tools automatically.
+Git must be available on all agents that perform repository checkouts.
+
+🔍 Validation Checklist
+
+Jenkins uses GIT_ASKPASS (HTTPS authentication)
+
+No SSH or libcrypto errors appear in console output
+
+Repository is cloned successfully on the agent
+
+Build completes without SCM-related failures
+
+❌ Common Pitfalls to Avoid
+
+Using SSH keys for GitHub SCM in Jenkins
+
+Reusing VM or EC2 SSH keys for GitHub authentication
+
+Assuming Jenkins uses ~/.ssh/id_rsa
+
+Managing SSH keys manually across multiple agents
+
+Debugging SSH-related failures in CI environments
+
+🏆 Final Recommendation
+
+For Jenkins + private GitHub repositories:
+
+✅ Use HTTPS + fine-grained Personal Access Tokens (PATs)
+❌ Avoid SSH unless there is a strict requirement
+
+This approach is:
+
+Secure (least-privilege access)
+
+Easy to rotate
+
+Agent-agnostic
+
+Cloud-native friendly
+
+Officially recommended by GitHub and Jenkins
 
 ---
-
-
