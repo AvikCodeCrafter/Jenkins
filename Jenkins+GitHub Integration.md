@@ -4,7 +4,7 @@ This project uncovered several **practical, real-world lessons** that are rarely
 
 ## 🏗️  Jenkins + GitHub
 
-![Jenkins+GitHub](images/CICD-pipeline.png)
+![Jenkins+GitHub](images/Jenkins+GitHub.png)
 
 ---
 
