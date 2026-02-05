@@ -89,10 +89,10 @@ For Jenkins + GitHub:
 
 If you are starting fresh:
 
-1. Use **HTTPS + PAT** for SCM integration
-2. Keep credentials **scoped and read-only**
-3. Treat Jenkins agents as disposable
-4. Let Jenkins orchestrate — not configure your OS
+1. Use **HTTPS + PAT** for SCM integration  
+2. Keep credentials **scoped and read-only**  
+3. Treat Jenkins agents as disposable  
+4. Let Jenkins orchestrate — not configure your OS  
 
 ---
 
@@ -109,20 +109,20 @@ These steps are preserved for **future reference**, reproducibility, and communi
 - **SCM Method:** HTTPS  
 - **Authentication:** GitHub Fine-Grained Personal Access Token (PAT)  
 - **Jenkins Version:** LTS  
-- **Agent Type:** VM / EC2 / Cloud Agent (Linux)
+- **Agent Type:** VM / EC2 / Cloud Agent (Linux)  
 
 ---
 
 ### Step 1: Create a GitHub Personal Access Token (PAT)
 
-1. Go to GitHub → **Settings**
-2. Navigate to **Developer settings → Personal access tokens**
-3. Select **Fine-grained tokens**
-4. Click **Generate new token**
+1. Go to GitHub → **Settings**  
+2. Navigate to **Developer settings → Personal access tokens**  
+3. Select **Fine-grained tokens**  
+4. Click **Generate new token**  
 
 **Token configuration:**
-- **Repository access:** Only selected repositories
-- **Permissions:**
+- **Repository access:** Only selected repositories  
+- **Permissions:**  
   - Contents → **Read-only** (minimum required)
 
 5. Generate the token  
@@ -132,16 +132,16 @@ These steps are preserved for **future reference**, reproducibility, and communi
 
 ### Step 2: Add GitHub PAT to Jenkins Credentials
 
-1. Open Jenkins → **Manage Jenkins → Credentials**
-2. Select **Global**
+1. Open Jenkins → **Manage Jenkins → Credentials**  
+2. Select **Global**  
 3. Click **Add Credentials**
 
 **Credential details:**
-- **Kind:** Username with password
-- **Username:** GitHub username
-- **Password:** GitHub Personal Access Token (PAT)
-- **ID:** `github-pat`
-- **Description:** GitHub PAT for private repository access
+- **Kind:** Username with password  
+- **Username:** GitHub username  
+- **Password:** GitHub Personal Access Token (PAT)  
+- **ID:** `github-pat`  
+- **Description:** GitHub PAT for private repository access  
 
 4. Save the credential
 
@@ -149,11 +149,17 @@ These steps are preserved for **future reference**, reproducibility, and communi
 
 ### Step 3: Configure Jenkins Job Source Control
 
-1. Open the Jenkins job
-2. Go to **Source Code Management**
+1. Open the Jenkins job  
+2. Go to **Source Code Management**  
 3. Select **Git**
 
 **Repository configuration:**
-- **Repository URL:**
-  ```text
-  https://github.com/<organization-or-user>/<repository>.git
+```text
+Repository URL:
+https://github.com/<organization-or-user>/<repository>.git
+
+Credentials:
+github-pat
+
+Branch Specifier:
+*/main
