@@ -215,6 +215,7 @@ Debugging SSH-related failures in CI environments
 For Jenkins + private GitHub repositories:
 
 ✅ Use HTTPS + fine-grained Personal Access Tokens (PATs)
+
 ❌ Avoid SSH unless there is a strict requirement
 
 This approach is:
