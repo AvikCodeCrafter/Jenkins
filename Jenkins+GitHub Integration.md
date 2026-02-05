@@ -163,7 +163,7 @@ github-pat
 
 Branch Specifier:
 */main
-
+```
 ---
 
 Save the job configuration.
