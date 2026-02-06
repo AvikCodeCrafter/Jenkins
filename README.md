@@ -1001,7 +1001,7 @@ pipeline {
 ## 🏷️ License
 
 MIT License  
-Feel free to fork, share, and help the community ❤️
+Feel free to fork, share, and help the community ❤️ Lover
 
 ---
 
